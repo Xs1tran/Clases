@@ -1,0 +1,36 @@
+body{
+    background-image: url('/img/Demon\ slayer\ tanjiro\ wallpaper\ 1920x1080\ laptop\ desktop\ 4k\ hd\ wpp\ 🎀.jfif');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bordes{
+    border: 1px solid black;
+}
+.estilo{
+    border: 1px solid rgb(179, 141, 98);
+    background-color: rgb(139, 91, 139);
+}
+.container-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.item1{
+    order: 0;
+    flex-grow: 2;
+    align-self: flex-start;
+}
+.item2{
+    order: 1;
+
+}
+.item3{
+    order: 2;
+    flex-grow: 3;
+    align-self: flex-end;
+}
+.item4{
+    order: 3;
+    flex-shrink: 4;
+}
